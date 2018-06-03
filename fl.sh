@@ -2,7 +2,7 @@
 mon=$(date "+%_m")
 day=$(date "+%_d")
 time=$(date "+%H%M")
-echo $mon
+
 r=$((2*$mon-2))
 s=$((2*$mon-1))
 d=$(($day-1))
